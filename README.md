@@ -18,7 +18,7 @@ It is the internal quantitative infrastructure of SIP Global, open-sourced under
 
 ## About SIP Global
 
-Systematic Index Partners (SIP Global) brings liquidity to overlooked markets that move the world. We apply systematic rigour and modern trading standards to create transparent pricing, real liquidity, and durable market function in physically-settled commodity markets across 26 cluster types — from seasonal agricultural bulk to artisanal small-batch outputs.
+Systematic Index Partners (SIP Global) brings liquidity to overlooked markets that move the world. We apply systematic rigour and modern trading standards to create transparent pricing, real liquidity, and durable market function in physically-settled commodity markets.
 
 *Tota Ad Manum.*
 
@@ -238,41 +238,6 @@ The foundation of sipQuant. Every pricing, risk, and index function accepts sche
 #### `ml` — Machine Learning
 
 `regressionTree`, `decisionTree`, `predictTree`, `isolationForest`, `anomalyScore`, `kmeans`, `knn`, `naiveBayes`, `randomForest`, `gradientBoosting`, `pca`, `lda`, `logisticRegression`
-
----
-
-## Cluster Coverage
-
-sipQuant is designed against the SIP 26-cluster commodity taxonomy. The module stack covers all 26 cluster types:
-
-| Cluster Type | Primary Modules |
-|---|---|
-| A — Seasonal Agricultural Bulk | `sim.ou`, `fit.fitOu`, `commodity.seasonality`, `commodity.localForwardCurve` |
-| B — Weather-Event Demand | `sim.compoundPoisson`, `sim.markovSwitching`, `options.barrier` |
-| C — Specialty Food & Beverage | `commodity.gradeAdjustment`, `index.proxyRegression`, `otc.collar` |
-| D — Industrial Biomaterials | `econometrics.ols`, `factor`, `sim.markovSwitching` |
-| E — Circular Economy & By-Products | `commodity.basis`, `commodity.transportDifferential`, `otc.physicalForward` |
-| F — Aquatic & Marine | `sim.ou`, `sim.compoundPoisson`, `options.barrier` |
-| G — Functional Minerals | `factor`, `econometrics.ols`, `index.proxyRegression` |
-| H — Animal Inputs & Feed Additives | `factor`, `econometrics.grangerCausality`, `sim.ou` |
-| I — Carbon & Environmental Credits | `econometrics.ols`, `sim.markovSwitching`, `index.calculateIndex` |
-| J — Water & Irrigation Inputs | `liquidity.thinMarketScore`, `index.proxyRegression` |
-| K — Textile & Natural Fibre | `commodity.basis`, `fit.fitOu`, `econometrics.ols` |
-| L — Emerging Protein Crops | `commodity.gradeAdjustment`, `index.calculateIndex`, `otc.collar` |
-| M — Fermentation & Microbial Inputs | `commodity.gradeAdjustment`, `liquidity.thinMarketScore` |
-| N — Exotic & Ceremonial | `index.proxyRegression`, `otc.asianOption` |
-| O — Waste Heat & Energy By-Products | `factor`, `econometrics.ols`, `otc.commoditySwap` |
-| P — Soil Inputs & Amendments | `commodity.seasonality`, `factor`, `index.calculateIndex` |
-| Q — Animal Genetics & Biologics | `factor`, `econometrics.ols`, `index.calculateIndex` |
-| R — Pharmaceutical Botanicals | `sim.markovSwitching`, `options.barrier`, `index.calculateIndex` |
-| S — Construction & Natural Building | `commodity.basis`, `commodity.transportDifferential` |
-| T — Non-Edible Horticultural | `sim.compoundPoisson`, `commodity.gradeAdjustment`, `otc.collar` |
-| U — Reclaimed & Recovered Industrial | `commodity.basis`, `econometrics.ols`, `otc.physicalForward` |
-| V — Traded Seeds & Propagation | `commodity.gradeAdjustment`, `index.calculateIndex` |
-| W — Traditional & Indigenous Food | `index.proxyRegression`, `liquidity.thinMarketScore` |
-| X — Logistics & Capacity Contracts | `options.barrier`, `otc.commoditySwap`, `bootstrap.curve` |
-| Y — Prediction & Outcome Markets | `options.binary`, `sim.compoundPoisson` |
-| Z — Artisanal & Small-Batch | `index.proxyRegression`, `econometrics.ols` |
 
 ---
 
