@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: sipQuant
+Version: 1.0.0
+Summary: Quantitative library for physically-settled commodity markets.
+Author-email: SIP Global <packages@sipglobally.com>
+License-Expression: GPL-3.0-only
+Project-URL: Homepage, https://github.com/Systematic-Index-Partners/sipQuant
+Project-URL: Documentation, https://sipquant.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://github.com/Systematic-Index-Partners/sipQuant/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.23
+Dynamic: license-file
+
 # sipQuant
 
 **Quantitative library for physically-settled commodity markets.**
